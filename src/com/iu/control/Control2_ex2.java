@@ -12,10 +12,25 @@ public class Control2_ex2 {
 		System.out.println("알파벳을 입력");
 		char ch = sc.next().charAt(0);
 		
-		ch = (char)(ch+num);
+		int result = ch+num;
 		
+		//소문자가 범위를 벗어났을 때
+		if(result>'z') {
+			result = result - 'z'-1;//2
+			result = 'a'+result;
+		}
+		
+		//대문자가 범위를 벗어났을 때
+		if(result>'Z' && result<'a') {
+			result = result-'Z' -1;
+			result = 'A'+result;
+		}
+		
+		
+		
+		ch = (char)result;
 		System.out.println("ch : "+ch);
-		
+		//num:2 ch : z
 		
 		
 		// num:1 ch:a 출력 b
