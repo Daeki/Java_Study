@@ -22,6 +22,8 @@ public class Control2_ex2 {
 		// num:2 ch:a 출력 c
 		// num:1 ch:z 출력 a
 		// num:2 ch:z 출력 b
+		
+		//집에서 추가한것
 
 	}
 
