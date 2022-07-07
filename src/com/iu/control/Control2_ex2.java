@@ -25,7 +25,10 @@ public class Control2_ex2 {
 		
 		//집에서 추가한것
 		
+
 		//Study Edition
+		//Home Edition
+
 
 	}
 
