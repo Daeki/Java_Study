@@ -134,14 +134,16 @@ public class Array_ex3 {
 						totalsCopy[index]=totals[j];
 						avgsCopy[index]=avgs[j];
 						index++;
-						names=namesCopy;
-						nums=numsCopy;
-						kors=korsCopy;
-						engs=engsCopy;
-						maths=mathsCopy;
-						totals=totalsCopy;
-						avgs=avgsCopy;
 					}
+					
+					names=namesCopy;
+					nums=numsCopy;
+					kors=korsCopy;
+					engs=engsCopy;
+					maths=mathsCopy;
+					totals=totalsCopy;
+					avgs=avgsCopy;
+					
 					
 				}else {
 					System.out.println("일치하는 학생 정보 없음");
